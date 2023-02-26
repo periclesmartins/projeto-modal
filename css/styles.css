@@ -9,6 +9,10 @@
 
 body {
     padding: 1rem;
+    background-image: url('../img/pexels-vlad-bagacian-3987066.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 h1 {
