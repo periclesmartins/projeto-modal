@@ -6,20 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <script src="js/scripts.js" defer></script>
+    <link rel="shortcut icon" href="icon/window.png" type="image/x-icon">
     <title>Modal</title>
 </head>
 <body>
     <h1>JavaScript Modal</h1>
-    <button id="openmodal">Abrir</button>
-    <div id="fade"></div>
-    <div id="modal">
+    <!-- Botão que abre o modal -->
+    <button id="open-modal">Abrir</button>
+    <!-- Camada escura que cobre o conteúdo quando o modal está aberto -->
+    <div id="fade" class="hide"></div>
+    <!-- O modal em si -->
+    <div id="modal" class="hide">
+        <!-- Cabeçalho do modal com título e botão de fechar -->
         <div class="modal-header">
             <h2>Este é o Modal</h2>
             <button id="close-modal">Fechar</button>
         </div>
+        <!-- Corpo do modal com texto explicativo -->
         <div class="modal-body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum, perferendis saepe eos quo corrupti voluptatibus, maxime officia hic illo nesciunt numquam placeat! Eius maxime temporibus hic cum alias in.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptate excepturi eaque quibusdam voluptates non tempora magni explicabo, natus minima, possimus dolores adipisci, unde expedita? Dolor ullam ipsam inventore quae.</p>
+            <p>Modal é um componente de interface que geralmente aparece como uma janela sobreposta ao conteúdo principal de um site ou aplicativo. Ele é usado para apresentar informações adicionais, solicitar uma ação do usuário ou fornecer uma experiência interativa.</p>
+            <p>Os modais geralmente incluem um botão de fechar e uma sobreposição escura que ajuda a destacar o modal do restante do conteúdo. Eles podem ser acionados por meio de um clique em um botão, um link, um evento ou uma condição específica, e são amplamente utilizados em aplicações web e móveis.</p>
         </div>
     </div>
 </body>
